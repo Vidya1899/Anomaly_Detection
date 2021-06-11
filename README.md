@@ -15,7 +15,7 @@ A dataset of video footages obtained from ground and aerial systems that perform
 
 ![alt-text-1](Images/preprocessing.png "")
 
-Install ROS from http://wiki.ros.org/Installation/Windows
+Install ROS from http://wiki.ros.org/Installation/Windows \
 To learn more about ROS: http://wiki.ros.org/ROS/Tutorials
 
 **Installing dependencies**
@@ -24,9 +24,9 @@ To learn more about ROS: http://wiki.ros.org/ROS/Tutorials
  ```
  
 Open ros launcher as administrator
-
  ```roscore
  ```
+ 
 Get information about the .bag file using: (in a new ros launcher window)
  ```
  rosbag info <bagfile.bag>
