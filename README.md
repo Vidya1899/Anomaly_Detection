@@ -15,8 +15,8 @@ A dataset of video footages obtained from ground and aerial systems that perform
 
 ![alt-text-1](Images/preprocessing.png "")
 
-#Install ROS from http://wiki.ros.org/Installation/Windows
-# http://wiki.ros.org/ROS/Tutorials
+Install ROS from http://wiki.ros.org/Installation/Windows
+To learn more about ROS: http://wiki.ros.org/ROS/Tutorials
 
 **Installing dependencies**
  ```bat
