@@ -24,7 +24,8 @@ To learn more about ROS: http://wiki.ros.org/ROS/Tutorials
  ```
  
 Open ros launcher as administrator
- ```roscore
+ ```
+ roscore
  ```
  
 Get information about the .bag file using: (in a new ros launcher window)
