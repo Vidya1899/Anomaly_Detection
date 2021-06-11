@@ -13,7 +13,7 @@ A dataset of video footages obtained from ground and aerial systems that perform
 
 ## Data pre-processing
 
-![alt-text-1](Images/preprocessing.png "preprocessing"
+![alt-text](Images/preprocessing.png "preprocessing"
 
 <p align="center">
 <img src="/Images/preprocessing.png" alt="alt text" >
