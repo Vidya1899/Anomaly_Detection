@@ -23,7 +23,7 @@ To learn more about ROS: http://wiki.ros.org/ROS/Tutorials
  pip install -r requirements.txt
  ```
  
-Open ros launcher as administrator
+Open ros launcher as administrator and start a roscore node
  ```
  roscore
  ```
