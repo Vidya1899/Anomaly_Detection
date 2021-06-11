@@ -12,4 +12,6 @@ A dataset of video footages obtained from ground and aerial systems that perform
 |Train Test set       |    [Google Drive](https://drive.google.com/drive/folders/1JlRVnEHC0ao_IbY_e1WmwNEg-2aMDJIL?usp=sharing)       |
 
 ## Data pre-processing
-
+<p align="center">
+<img src="/Images/preprocessing.png" alt="alt text" >
+</p>
