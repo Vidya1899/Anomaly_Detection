@@ -12,6 +12,36 @@ A dataset of video footages obtained from ground and aerial systems that perform
 |Train Test set       |    [Google Drive](https://drive.google.com/drive/folders/1JlRVnEHC0ao_IbY_e1WmwNEg-2aMDJIL?usp=sharing)       |
 
 ## Data pre-processing
-<p align="center">
-<img src="/Images/preprocessing.png" alt="alt text" >
-</p>
+
+![alt-text-1](Images/preprocessing.png "")
+
+Install ROS from http://wiki.ros.org/Installation/Windows \
+To learn more about ROS: http://wiki.ros.org/ROS/Tutorials
+
+**Installing dependencies**
+ ```bat
+ pip install -r requirements.txt
+ ```
+ 
+Open ros launcher as administrator and start a roscore node
+ ```
+ roscore
+ ```
+ 
+Get information about the .bag file using: (in a new ros launcher window)
+ ```
+ rosbag info <bagfile.bag>
+
+rostopic -b IMU.bag -p /mavros/global_position/compass_hdg
+
+rostopic echo -b IMU.bag -p /mavros/battery
+ ```
+ Extract the data to .csv and video footage to images
+ ```
+rostopic echo -b IMU.bag -p /mavros/battery > battery.csv
+
+rosrun image_view image_view image:=/pylon_camera_node/image_raw/
+rosbag play IMU.bag # in seperate window
+
+rosrun image_view extract_images image:=/pylon_camera_node/image_raw/
+ ```
