@@ -45,3 +45,6 @@ rosbag play IMU.bag # in seperate window
 
 rosrun image_view extract_images image:=/pylon_camera_node/image_raw/
  ```
+
+CNN Architecture
+![alt-text-1](CNN/Architecture.png "Architecture")
