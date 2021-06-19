@@ -3,7 +3,7 @@ Drones are expected to be widely used in near future in the areas of agriculture
 
 ![alt-text-1](Images/normal.png "Normal")  ![alt-text-2](Images/abnormal.png "Abnormal")
 ## Dataset
-A dataset of video footages obtained from ground and aerial systems that perform a repetitive task, such as perimeter monitoring. It consists of 12 Rosbag files where total number of normal images is 277 and the number of mixed images is 392.
+A dataset of video footages obtained from ground and aerial systems that perform a repetitive task, such as perimeter monitoring. It consists of 12 Rosbag files where total number of normal images is 277 and the number of mixed images is 392. 
 
 
 |         Content     |       LINK       |
