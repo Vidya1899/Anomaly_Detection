@@ -1,5 +1,5 @@
 # Anomaly_Detection
-Drones are expected to be widely used in near future in the areas of agriculture, surveillance and logistics. The behavior of the autonomous systems, especially the drones, needs to be robust, irrespective of the status of the sensors, environment and the collective conditions of the system. The dynamics of the autonomous system can go into unpredictable behavior because of the faultiness of the sensors, power failure or unexpected environment condition. This work detects whether the state of the drone is in order or not, using multiple streams of video footages. 
+Drones are expected to be widely used in near future in the areas of agriculture, surveillance and logistics. The behavior of the autonomous systems, especially the drones, needs to be robust, irrespective of the status of the sensors, environment and the collective conditions of the system. The dynamics of the autonomous system can go into unpredictable behavior because of the faultiness of the sensors, power failure or unexpected environment condition. This work detects whether the state of the drone is in order or not, using multiple streams of video footages.    
 
 ![alt-text-1](Images/normal.png "Normal")  ![alt-text-2](Images/abnormal.png "Abnormal")
 ## Dataset
